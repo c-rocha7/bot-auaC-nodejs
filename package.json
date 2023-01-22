@@ -4,7 +4,8 @@
   "description": "Um bot para controle de permanência de usuário em grupos do telegram utilizando o framework node-telegram-bot-api (https://github.com/yagop/node-telegram-bot-api)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/c-rocha7/bot-auaC-nodejs#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
